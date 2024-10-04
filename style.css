@@ -137,20 +137,21 @@ nav {
 
 .header__description {
   display: flex;
-  height: 500px;
+  height: 450px;
 }
 
 .header__text--container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: start;
-  width: 45%;
+  width: 50%;
 }
 
 .header__text--container p {
+  color: rgb(68, 68, 68);
   font-size: 18px;
   margin: 12px 0;
+  margin: 36px 0;
 }
 
 .email__input {
@@ -159,6 +160,7 @@ nav {
   padding-left: 16px;
   border: 2px solid rgb(224, 216, 216);
   border-radius: 50px;
+  margin: 40px 0;
 }
 
 .email__input input {
