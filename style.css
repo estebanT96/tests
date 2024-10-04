@@ -18,6 +18,11 @@
 }
 
 h1 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+h2 {
   font-size: 46px;
 }
 
@@ -26,6 +31,10 @@ h1 {
 }
 
 /* HEADER  */
+
+#header {
+  height: 100vh;
+}
 
 nav {
   height: 100px;
@@ -228,4 +237,141 @@ nav {
   margin-top: 12px;
   width: 80%;
   filter: brightness(200%);
+}
+
+/* FEATURES  */
+.features__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__description h1 {
+  margin: 12px 0;
+}
+
+.features__description p {
+  font-size: 18px;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 24px;
+  font-weight: 500;
+  color: rgb(151, 151, 151);
+  line-height: 2;
+}
+
+.services__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 32px;
+}
+
+.service {
+  width: calc(100% / 3);
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.service__icon {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  margin-right: 12px;
+}
+
+.service__icon--wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+}
+
+.service__icon--wrapper i {
+  font-size: 22px;
+  padding: 20px;
+  border: 1px solid rgb(218, 214, 214);
+  border-radius: 50px;
+  color: rgb(100, 21, 255);
+}
+
+.service__title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.service__description {
+  width: 80%;
+  font-weight: 500;
+  color: rgb(151, 151, 151);
+  line-height: 2;
+}
+
+/* QUALITY WORK  */
+.quality__work--container {
+  display: flex;
+  align-items: center;
+}
+
+.quality__work--description {
+  width: 50%;
+}
+
+.quality__work--description h1 {
+  margin: 12px 0;
+}
+
+.quality__work--description p {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(151, 151, 151);
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.quality__work--description button {
+  height: 50px;
+  width: 160px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(100, 21, 255);
+  color: white;
+  font-weight: 600;
+}
+
+.quality__work--description button:hover {
+  cursor: pointer;
+  background-color: rgb(74, 7, 209);
+}
+
+.quality__work--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.quality__work--img {
+  width: 100%;
+  border: 1px solid rgb(206, 206, 206);
+}
+
+.dots {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 50px;
+  color: rgb(100, 21, 255);
+  transform: translate(12px, 11px);
+  z-index: -1;
 }
