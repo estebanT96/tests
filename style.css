@@ -344,6 +344,7 @@ nav {
   border-radius: 50px;
   background-color: rgb(100, 21, 255);
   color: white;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -357,7 +358,6 @@ nav {
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 100%;
   position: relative;
 }
 
@@ -374,4 +374,53 @@ nav {
   color: rgb(100, 21, 255);
   transform: translate(12px, 11px);
   z-index: -1;
+}
+
+/* STEPS  */
+.steps__container {
+  display: flex;
+}
+
+.steps__img--wrapper {
+
+}
+
+.steps__img {
+
+}
+
+.img__deco--wrapper {
+
+}
+
+.img__deco {
+
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  margin-top: 36px;
+  display: flex;
+  width: 80%;
+}
+
+.step__number {
+  width: 20%;
+  font-size: 32px;
+}
+
+.step__title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.step__description p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #979797;
 }
