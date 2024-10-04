@@ -167,6 +167,10 @@ nav {
   height: 60px;
 }
 
+.email__input input:focus {
+  outline: none;
+}
+
 .email__input button {
   position: absolute;
   right: 6px;
