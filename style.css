@@ -384,7 +384,7 @@ nav {
 }
 
 .steps__description {
-  margin-left: 24px;
+  margin-left: 100px;
   height: 100%;
 }
 
@@ -408,7 +408,7 @@ nav {
   right: 50%;
   bottom: 0;
   z-index: -1;
-  transform: translate(50%, 50%);
+  transform: translate(50%, 48%);
 }
 
 .img__deco {
@@ -417,18 +417,22 @@ nav {
 }
 
 .steps {
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
 }
 
 .step {
   display: flex;
-  width: 80%;
+  width: 70%;
+  margin-bottom: 12px;
 }
 
 .step__number {
   width: 20%;
+  font-weight: 600;
   font-size: 32px;
+  color: rgb(206, 204, 204);
 }
 
 .step__title {
@@ -436,9 +440,14 @@ nav {
   margin-bottom: 12px;
 }
 
-.step__description p {
-  font-size: 15px;
+.step__description p, .step__description2 p  {
+  font-size: 13px;
   font-weight: 600;
   line-height: 1.5;
   color: #979797;
 }
+
+.step__description2 {
+  margin-left: 12px;
+}
+
