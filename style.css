@@ -377,24 +377,43 @@ nav {
 }
 
 /* STEPS  */
+
 .steps__container {
   display: flex;
+  height: 400px;
+}
+
+.steps__description {
+  margin-left: 24px;
+  height: 100%;
 }
 
 .steps__img--wrapper {
+  width: 40%;
+}
 
+.steps__img--wrapper figure {
+  width: 100%;
+  position: relative;
 }
 
 .steps__img {
-
+  width: 100%;
 }
 
 .img__deco--wrapper {
-
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  z-index: -1;
+  transform: translate(50%, 50%);
 }
 
 .img__deco {
-
+  height: 100%;
+  filter: opacity(10%);
 }
 
 .steps {
@@ -403,7 +422,6 @@ nav {
 }
 
 .step {
-  margin-top: 36px;
   display: flex;
   width: 80%;
 }
