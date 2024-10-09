@@ -21,6 +21,10 @@
   color: #6415ff;
 }
 
+.section__title {
+  font-size: 56px;
+}
+
 /* HEADER  */
 
 nav {
@@ -135,19 +139,22 @@ nav {
 }
 
 .header__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 50%;
 }
 
 .header__description h2 {
   font-size: 48px;
   font-weight: 700;
-  width: 80%;
+  width: 90%;
   margin-bottom: 24px;
 }
 
 .header__description p {
-  font-size: 16px;
-  width: 80%;
+  font-size: 17px;
+  width: 85%;
   line-height: 1.5;
   color: rgb(117, 114, 114);
   margin-bottom: 24px;
@@ -180,9 +187,18 @@ nav {
 }
 
 .trusted__customers span {
-  color: gray;
+  color: rgb(150, 149, 149);
   font-size: 14px;
   font-weight: 600;
+}
+
+.trusted__customers figure {
+  width: 100%;
+}
+
+.trusted__customers--img {
+  width: 60%;
+  filter: brightness(170%);
 }
 
 .header__img--wrapper {
@@ -191,4 +207,121 @@ nav {
 
 .header__img {
   width: 100%;
+}
+
+.features__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__description h1 {
+  margin-bottom: 24px;
+}
+
+.features__description p {
+  text-align: center;
+  width: 55%;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(145, 144, 144);
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.service {
+  display: flex;
+  list-style-type: none;
+  width: calc(100% / 3);
+  margin-bottom: 52px;
+}
+
+.service__logo {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin-right: 16px;
+}
+
+.service__logo--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(207, 204, 204);
+  border-radius: 50px;
+}
+
+.service__title {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.service__text {
+  width: 80%;
+  line-height: 2;
+}
+
+.fa-shield-virus,
+.fa-headphones,
+.fa-sliders,
+.fa-arrows-up-down-left-right,
+.fa-bolt,
+.fa-person-breastfeeding {
+  font-size: 20px;
+  color: #6415ff;
+}
+
+.service__text {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(145, 144, 144);
+}
+
+/* QUALITY WORK  */
+
+.quality__work--container {
+  display: flex;
+  height: 400px;
+  align-items: center;
+}
+
+.quality__work--description {
+  width: 50%;
+}
+
+.qualitywork__img--wrapper {
+  display: flex;
+  position: relative;
+  width: 50%;
+  justify-content: end;
+  margin: 0 12px;
+}
+
+.quality__work--img {
+  width: 100%;
+  border: 1px solid rgb(212, 210, 210);
+  box-shadow: 0.2px 2px 5px rgb(146, 146, 146);
+}
+
+.fa-arrow-up-right-dots {
+  font-size: 52px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(20%,25%);
+  z-index: -1;
 }
