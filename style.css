@@ -541,3 +541,215 @@ nav {
 .values__img {
   width: 100%;
 }
+
+/* PRICING  */
+
+.pricing__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__description h1 {
+  margin-bottom: 24px;
+}
+
+.pricing__description p {
+  text-align: center;
+  width: 55%;
+  font-weight: 500;
+  font-size: 19px;
+  color: #797878;
+  line-height: 1.5;
+}
+
+.plans__container {
+  margin-top: 56px;
+  display: flex;
+}
+
+.plan {
+  position: relative;
+  width: 380px;
+  height: 600px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0.5px 0.5px 2px 0.5px rgb(197, 197, 197);
+}
+
+.personal__plan--border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 7px;
+  width: 100%;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  z-index: 1;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35%;
+  border-bottom: 2px solid rgb(224, 224, 224);
+  justify-content: space-around;
+}
+
+.plan__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price__number {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.monthly {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(158, 158, 158);
+}
+
+.plan--description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45%;
+  border-bottom: 2px solid rgb(224, 224, 224);
+  justify-content: space-around;
+}
+
+.plan--description ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  height: 70%;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  color: #797878;
+}
+
+.plan__btn--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+
+.personal__btn {
+  height: 45%;
+  width: 50%;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all ease 300ms;
+}
+
+.personal__btn:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+  box-shadow: 0 2px 10px 1px rgb(172, 171, 171);
+}
+
+.business__plan {
+  width: 380px;
+  height: 600px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0.5px 0.5px 2px 0.5px rgb(197, 197, 197);
+}
+
+.business__plan--border {
+  height: 7px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.business__plan {
+  margin: 0 44px;
+  background-color: rgb(120, 56, 250);
+  color: white;
+}
+
+.business__plan .monthly,
+.business__plan ul {
+  color: white;
+}
+
+.business__btn {
+  height: 45%;
+  width: 50%;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  color: rgb(100 21 255);
+  font-size: 16px;
+  font-weight: 700;
+  transition: all ease 300ms;
+}
+
+.business__btn:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+  box-shadow: 0 2px 15px 1px rgb(85, 85, 85);
+}
+
+.enterprise__plan--border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 7px;
+  width: 100%;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.enterprise__btn {
+  height: 45%;
+  width: 50%;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all ease 300ms;
+}
+
+.enterprise__btn:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+  box-shadow: 0 2px 10px 1px rgb(172, 171, 171);
+}
