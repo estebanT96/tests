@@ -21,8 +21,16 @@
   color: #6415ff;
 }
 
+.blue__text--stitle {
+  color: #6415ff;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
 .section__title {
-  font-size: 56px;
+  font-size: 52px;
+  font-weight: 800;
+  color: rgb(49, 49, 49);
 }
 
 /* HEADER  */
@@ -228,7 +236,8 @@ nav {
 .features__description p {
   text-align: center;
   width: 55%;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.5;
   font-weight: 500;
   color: rgb(145, 144, 144);
 }
@@ -259,14 +268,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border: 1px solid rgb(207, 204, 204);
   border-radius: 50px;
 }
 
 .service__title {
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 12px;
 }
 
@@ -286,7 +295,7 @@ nav {
 }
 
 .service__text {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: rgb(145, 144, 144);
 }
@@ -301,6 +310,37 @@ nav {
 
 .quality__work--description {
   width: 50%;
+}
+
+#quality__work .section__title {
+  margin-bottom: 32px;
+}
+
+#quality__work h5 {
+  margin-bottom: 16px;
+}
+.quality__work--description p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: rgb(158, 158, 158);
+  margin-bottom: 32px;
+}
+
+.quality__work--btn {
+  padding: 16px 36px;
+  border: none;
+  background-color: #6415ff;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all ease 200ms;
+}
+
+.quality__work--btn:hover {
+  background-color: #4b0ec5;
+  cursor: pointer;
 }
 
 .qualitywork__img--wrapper {
@@ -322,6 +362,182 @@ nav {
   position: absolute;
   right: 0;
   bottom: 0;
-  transform: translate(20%,25%);
+  transform: translate(20%, 25%);
   z-index: -1;
+}
+
+/* STEPS */
+.steps__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps__img--wrapper {
+  width: 50%;
+  position: relative;
+}
+
+.steps__img {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.steps__deco--wrapper {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, -15%);
+  z-index: -1;
+}
+
+.steps__deco {
+  width: 100%;
+  filter: opacity(17%);
+}
+
+.steps__list {
+  list-style-type: none;
+  width: 80%;
+}
+
+.step {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.step__number {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.step__23--margin {
+  margin-right: 24px;
+}
+
+.step__number span {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(212, 212, 212);
+}
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps__description h1 {
+  margin-bottom: 24px;
+}
+
+.step__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(49, 49, 49);
+  margin-bottom: 12px;
+}
+
+.step__description {
+  font-weight: 500;
+  color: rgb(121, 120, 120);
+  line-height: 1.5;
+}
+
+/* VALUES  */
+.values__container {
+  display: flex;
+}
+
+.values__description {
+  width: 50%;
+}
+
+.values__description .section__title {
+  margin-bottom: 24px;
+}
+
+.values__container p {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(158, 158, 158);
+  margin-bottom: 32px;
+  width: 90%;
+}
+
+.principles {
+  display: flex;
+}
+
+.affordable,
+.professionalism {
+  width: 50%;
+}
+
+.principle__icontitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.principle__icon1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(145, 236, 145);
+  border-radius: 50px;
+}
+
+.principle__icon2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(255, 183, 181);
+  border-radius: 50px;
+}
+
+.fa-dollar-sign {
+  font-size: 18px;
+  color: green;
+}
+.fa-briefcase {
+  font-size: 18px;
+  color: rgb(192, 5, 5);
+}
+
+.principle__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #313131;
+}
+
+.learn__more--btn {
+  padding: 16px 36px;
+  border: none;
+  background-color: #6415ff;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all ease 200ms;
+}
+
+.learn__more--btn:hover {
+  background-color: #4b0ec5;
+  cursor: pointer;
+}
+.values__img--container {
+  width: 50%;
+}
+
+.values__img {
+  width: 100%;
 }
