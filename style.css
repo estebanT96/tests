@@ -1032,18 +1032,21 @@ nav {
   justify-content: space-around;
 }
 
-.footer__list li {
-  list-style-type: none;
+.footer__list {
+  margin-top: 12px;
 }
 
-.footer__list a {
+.footer__list li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+.footer__link {
   text-decoration: none;
   color: white;
   font-size: 14px;
   font-weight: 500;
-}
-
-.footer__list--container {
+  padding-bottom: 4px;
   position: relative;
 }
 
@@ -1055,18 +1058,23 @@ nav {
 }
 
 .footer__underline {
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  background-color: red;
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: transparent;
+  transition: all ease 200ms;
 }
 
 .footer__link:hover .footer__underline {
-  background-color: blue;
+  background-color: white;
+  width: 100%;
 }
 
 .treact__info {
   height: 30%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fa-circle3 {
