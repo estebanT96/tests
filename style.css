@@ -984,19 +984,20 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 350px;
   z-index: 1;
 }
 
 .get__started--btn {
-  padding: 24px 44px;
+  height: 72px;
+  width: 180px;
   font-size: 17px;
   color: white;
   background-color: rgb(245 101 101);
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  margin-right: 20px;
+  margin-right: 12px;
   transition: all ease 200ms;
   box-shadow: 0 2px 0 1px #4c0ccc;
 }
@@ -1007,14 +1008,15 @@ nav {
 }
 
 .contactus__us {
-  padding: 24px 44px;
+  height: 72px;
+  width: 180px;
   font-size: 17px;
   color: white;
   background-color: transparent;
   border: 1px solid;
   border-radius: 50px;
   font-weight: 600;
-  margin-left: 20px;
+  margin-left: 12px;
   transition: all ease 200ms;
   box-shadow: 0 2px 0 1px #4c0ccc;
 }
@@ -1136,6 +1138,8 @@ nav {
 
 .social__media {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social__icon--wrapper {
@@ -1183,7 +1187,7 @@ nav {
 
   .header__description {
     align-items: center;
-    width: 60%;
+    width: 80%;
   }
 
   .header__description h2 {
@@ -1278,4 +1282,221 @@ nav {
   .testimonials__container {
     margin: 0 24px;
   }
+
+  .questions {
+    width: 90%;
+  }
+
+  .getstarted__contact--container {
+    height: 300px;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .getstarted__contact--text {
+    text-align: center;
+    width: 60%;
+    margin-bottom: 24px;
+  }
+
+  .get__started--btn,
+  .contactus__us {
+    height: 56px;
+    width: 160px;
+    font-size: 16px;
+  }
+
+  .footer__lists,
+  .treact__info {
+    width: 90%;
+  }
+
+  .social__media {
+    z-index: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .features__description p {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .services__list {
+    width: 40%;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .quality__work--container {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .quality__work--description {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .quality__work--description p {
+    width: 70%;
+    font-size: 14px;
+  }
+
+  .qualitywork__img--wrapper {
+    margin-bottom: 24px;
+    width: 70%;
+  }
+
+  .steps__container {
+    flex-direction: column;
+  }
+
+  .steps__deco--wrapper {
+    height: 100px;
+    width: 100px;
+    bottom: -45px;
+  }
+
+  .steps__description {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step__description {
+    align-items: center;
+  }
+
+  .step__description p {
+    text-align: center;
+  }
+
+  .step__23--margin {
+    margin: 0;
+  }
+
+  .values__container {
+    flex-direction: column-reverse;
+  }
+
+  .values__description {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .values__description h1 {
+    font-size: 36px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .values__description p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .values__img--container {
+    width: 60%;
+    margin-bottom: 24px;
+  }
+
+  .principles {
+    align-items: center;
+  }
+
+  .affordable,
+  .professionalism {
+    width: 70%;
+  }
+
+  .principle__icontitle {
+    justify-content: center;
+  }
+
+  .principle__para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pricing__description h1 {
+    text-align: center;
+    font-size: 46px;
+    width: 70%;
+  }
+
+  .pricing__description p {
+    font-size: 14px;
+  }
+
+  .personal__btn,
+  .business__btn,
+  .enterprise__btn {
+    width: 70%;
+  }
+
+  .testimonials__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonials__description {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    width: 70%;
+  }
+
+  .testimonials__description h1 {
+    font-size: 36px;
+  }
+
+  .testimonials__description p {
+    margin-top: 24px;
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .review {
+    align-items: center;
+  }
+
+  .review p {
+    font-size: 16px;
+  }
+
+  .user__profile--arrows {
+    width: 90%;
+  }
+
+  .faqs__description p {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .question span {
+    font-size: 18px;
+}
+
+.getstarted__contact--text {
+  width: 70%;
+}
 }
